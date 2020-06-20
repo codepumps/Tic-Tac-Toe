@@ -11,4 +11,4 @@ I used React Hooks.
 
 ### `Checkout Tic Tac Toe App`
 
-You can run demo tic tac toe app. [Show Project]().
+You can run demo tic tac toe app. [Show Project](https://play-tic-tac-toe-react.netlify.app/).
