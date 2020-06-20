@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #13547a , #80d0c7);
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100vh;
+}
+
+.App h1{
+  font-size: 48px;
+  color: #fff;
+}
+
+.App header .turn{
+  font-size: 21px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.App .reset .reset-btn{
+  border: none;
+  padding: 10px 15px;
+  background: linear-gradient(to right,#ff758c, #ff7eb3);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.5s all ease;
+}
+
+.App .reset .reset-btn:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.App .table{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  /* border: 2px solid #fff; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App .result{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+
+.App .table .square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  border: 2px solid #fff;
+  transition: 0.2s all ease;
+}
+.App .table .square:hover{
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
